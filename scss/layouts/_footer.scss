@@ -1,0 +1,18 @@
+footer{
+    background-color: #333333;
+    color: white;
+    ul{
+        li{
+            padding-bottom: 5px;
+            transition: all 0.4s ease-in-out;
+            &:hover{
+                color: $secondary-color;
+                transform: translateX(10px);
+            }
+        }
+    }
+    .copy-right{
+        background-color: $primary-color;
+    }
+ 
+}

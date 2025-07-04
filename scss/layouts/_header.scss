@@ -1,0 +1,25 @@
+header{
+    .top-header{
+        background-color: #088F33;
+        color: white;
+        position: relative;
+        img{
+            position: absolute;
+            top: 0;
+            width: 150px;
+            height: fit-content;
+            border: 3px solid $secondary-color;
+            border-top: none;
+            z-index: 99;
+        }
+    }
+    .nav-bar{
+        background-color: $primary-color;
+        color: white;
+        ul{
+            li{
+                padding: 20px;
+            }
+        }
+    }
+}

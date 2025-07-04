@@ -1,0 +1,23 @@
+.banner{
+    .carousel-inner{
+        .carousel-item{
+            img{
+                height: 70vh;
+            }
+            .carousel-caption {
+                left: initial;
+                bottom: initial;
+                top: 50%;
+                text-align: end;
+                transform: translateY(-50%);
+                width: 40%;
+                right: 10%;
+                .custom-btn{
+                    background-color: $secondary-color;
+                    color: white;
+                    padding: 10px 20px;
+                }
+            }
+        }
+    }
+}
