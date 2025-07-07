@@ -1,9 +1,10 @@
-.banner{
-    .carousel-inner{
-        .carousel-item{
-            img{
+.banner {
+    .carousel-inner {
+        .carousel-item {
+            img {
                 height: 70vh;
             }
+
             .carousel-caption {
                 left: initial;
                 bottom: initial;
@@ -12,12 +13,59 @@
                 transform: translateY(-50%);
                 width: 40%;
                 right: 10%;
-                .custom-btn{
+
+                .custom-btn {
                     background-color: $secondary-color;
                     color: white;
                     padding: 10px 20px;
                 }
             }
+        }
+    }
+}
+
+.about-us-section {
+    border-bottom: 1px solid #a4a4a4;
+    padding-bottom: 30px;
+    h2 {
+        background-color: $primary-color;
+        padding: 5px 10px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 18px;
+        width: fit-content;
+        margin-bottom: 30px;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    ul {
+        li {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            &:hover {
+                text-decoration: underline;
+            }
+            i {
+                padding-right: 10px;
+                color: $primary-color;
+            }
+
+        }
+    }
+
+    .custom-btn{
+        background-color: $secondary-color;
+        color: white;
+        padding: 10px 20px;
+        margin-left: auto;
+        display: block;
+        width: fit-content;
+        &:hover{
+            background-color: $primary-color;
         }
     }
 }

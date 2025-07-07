@@ -75,4 +75,46 @@ footer .copy-right {
   background-color: #ED7701;
   color: white;
   padding: 10px 20px;
+}
+
+.about-us-section {
+  border-bottom: 1px solid #a4a4a4;
+  padding-bottom: 30px;
+}
+.about-us-section h2 {
+  background-color: #0D772F;
+  padding: 5px 10px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+.about-us-section p {
+  text-align: justify;
+}
+.about-us-section ul li {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.about-us-section ul li:hover {
+  text-decoration: underline;
+}
+.about-us-section ul li i {
+  padding-right: 10px;
+  color: #0D772F;
+}
+.about-us-section .custom-btn {
+  background-color: #ED7701;
+  color: white;
+  padding: 10px 20px;
+  margin-left: auto;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.about-us-section .custom-btn:hover {
+  background-color: #0D772F;
 }/*# sourceMappingURL=style.css.map */
