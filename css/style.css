@@ -164,6 +164,7 @@ footer .copy-right {
   color: white;
   padding: 10px 20px;
   display: none;
+  z-index: 1;
 }
 .best-selling-trip-card:hover .price {
   display: block;
@@ -208,5 +209,41 @@ footer .copy-right {
   background-color: #ED7701;
 }
 .best-selling-section .nav-tabs .nav-link.active {
+  background-color: #ED7701;
+}
+
+.guest-testimonals-section .accordion-item {
+  margin-bottom: 10px;
+}
+.guest-testimonals-section .accordion-item .accordion-button {
+  background-color: #0D772F;
+  color: white;
+}
+.guest-testimonals-section .accordion-item .accordion-body {
+  background-color: white;
+  border: 1px solid #626262;
+  border-radius: 2px;
+  border-top: none;
+}
+
+.guest-testimonals-slider {
+  background-image: url("/images/clients.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+.guest-testimonals-slider h3 {
+  font-size: 18px;
+}
+.guest-testimonals-slider .carousel-indicators button {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 2px solid #ED7701;
+  background-color: transparent;
+}
+.guest-testimonals-slider .carousel-indicators button.active {
   background-color: #ED7701;
 }/*# sourceMappingURL=style.css.map */
